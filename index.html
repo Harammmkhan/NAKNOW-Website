@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Top bar -->
+    <div class="bg-dark text-white text-center py-1 small" id="top-bar">
+      COMPLIMENTARY GLOBAL SHIPPING ON ALL ORDERS OVER $2,500. PRECISION
+      ENGINEERED. DELIVERED.
+    </div>
+    <!-- main header -->
+    <div class="container-fluid bg-light py-3">
+  <div class="container">
+
+    <!-- Row 1: Logo (left) | Icons + Toggler (right) -->
+    <div class="d-flex justify-content-between align-items-center">
+      <h4 class="mb-0">NAKNOW</h4>
+
+      <!-- Desktop search (hidden on mobile) -->
+      <div class="input-div d-none d-md-flex align-items-center justify-content-between border-0 px-5 py-1 gap-3 rounded-3">
+        <div class="d-flex align-items-center w-100">
+          <i class="fa fa-search"></i>
+          <input type="text" placeholder="Search the collection"
+                 class="form-control border-0 shadow-none bg-transparent"/>
+        </div>
+        <span class="text-muted small">CMM+K</span>
+      </div>
+
+      <!-- Icons + Toggler — always visible -->
+      <div class="d-flex align-items-center gap-3">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-regular fa-user"></i>
+        <a href="#" class="text-dark fs-5 position-relative">
+          <i class="fa fa-shopping-cart"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge bg-primary rounded-pill">3</span>
+        </a>
+        <!-- Toggler only on mobile -->
+        <button class="custom-toggler d-md-none" type="button"
+        data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+      </div>
+    </div>
+
+    <!-- Row 2: Search only on mobile -->
+    <div class="d-flex d-md-none mt-2">
+      <div class="input-div w-100 d-flex align-items-center border-0 px-3 py-1 gap-3 rounded-3">
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="Search the collection"
+               class="form-control border-0 shadow-none bg-transparent"/>
+        <span class="text-muted small">⌘K</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+    <!-- navbar menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+      <div class="container">
+        <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+          <ul class="navbar-nav gap-4 mx-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">DISCOVER</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="index2.html">AUDIO</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">VISUAL</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">COMPUTING</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">GAMING</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">EDITORIAL</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- section 1 -->
+    <div class="container sect-1-parent">
+      <div class="row">
+        <div class="col-8 left-box">
+          <div class="content">
+            <p>NEW ERA PERFORMANCE</p>
+            <h3>
+              iPhone 15 Pro<br />
+              Forged in Titanium
+            </h3>
+            <button class="btn btn-primary">EXPERIENCE THE POWER</button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="right-top">
+            <div class="content">
+              <h3>Workstation Pro</h3>
+              <p>M3 Chip. Infinite Speed.</p>
+            </div>
+          </div>
+          <div class="right-bottom mt-3">
+            <div class="content">
+              <h3>Spatial Audio</h3>
+              <p>Unparalleled Precision.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 2 -->
+     <div class="container d-flex justify-content-between mt-5">
+          <h2>THE DIRECTORY</h2>
+          <div class="d-flex gap-3 text-center justify-content-center ">
+            <div class="button-left"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+            <div class="button-right"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+            </div>
+      </div>
+    <section class="container mt-3" id="directory">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper sect-1-swiper">
+          <div class="swiper-slide">
+            <div class="card hover">
+              <i class="fa fa-mobile"></i>
+            </div>
+            <p>PHONES</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <i class="fa fa-laptop"></i>
+            </div>
+            <p>LAPTOPS</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <i class="fa fa-laptop"></i>
+            </div>
+            <p>LAPTOPS</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <i class="fa fa-tablet"></i>
+            </div>
+            <p>TABLETS</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <i class="fa fa-headphones"></i>
+            </div>
+            <p>AUDIO</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <i class="fa fa-hand-rock"></i>
+            </div>
+            <p>WEARABLE</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <i class="fa fa-gamepad"></i>
+            </div>
+            <p>GAMEPAD</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <i class="fa fa-gg-circle"></i>
+            </div>
+            <p>OTHERS</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <i class="fa fa-tablet"></i>
+            </div>
+            <p>ACCESSORIES</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 3 -->
+     <div class="container d-flex justify-content-between mt-5">
+          <h2>THE CURATED LIST</h2>
+          <div class="d-flex gap-3 text-center justify-content-center ">
+            <div class="button-left-2"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+            <div class="button-right-2"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+            </div>
+      </div>
+    <section class="container mt-3" id="directory">
+      <div class="swiper swiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide sect-3-swiper">
+            <div class="card3 hover sect-3-cards">
+          <div class="sect-3-nested">
+            <span class="badge-save">SAVE $150</span>
+            <img src="images/sect-3-img1.png" alt="" class="sect-3-img">
+          </div>
+          <div class="sect-3-content">
+            <p>IPAD PRO</p>
+            <h4>12.9-inch Liquid Retina</h4>
+          </div>
+          <div class="d-flex gap-2 align-items-center stars ">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <p class="review">(128 Reviews)</p>
+          </div>
+          <div class="price-btn d-flex justify-content-between align-items-center gap-3">
+            <h3>$1,099.00</h3>
+            <button>ADD TO BAG</button>
+          </div>
+        </div>
+          </div>
+        <div class="swiper-slide sect-3-swiper">
+            <div class="card3 hover sect-3-cards">
+          <div class="sect-3-nested">
+          <img src="images/sect-3-img2.webp" alt="" class="sect-3-img">
+          </div>
+          <div class="sect-3-content">
+            <p>SONY ALPHA</p>
+            <h4>FE 85mm f/1.4 GM II</h4>
+          </div>
+          <div class="d-flex gap-2 align-items-center stars ">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <p class="review">(42 Reviews)</p>
+          </div>
+          <div class="price-btn d-flex justify-content-between align-items-center gap-3">
+            <h3>$1,899.00</h3>
+            <button>ADD TO BAG</button>
+          </div>
+        </div>
+          </div>
+          <div class="swiper-slide sect-3-swiper">
+            <div class="card3 hover sect-3-cards">
+          <div class="sect-3-nested">
+            <span class="badge-new">NEW</span>
+            <img src="images/sect-3-img3.png" alt="" class="sect-3-img">
+          </div>
+          <div class="sect-3-content">
+            <p>DELL XPS</p>
+            <h4>XPS 15 InfinityEdge</h4>
+          </div>
+          <div class="d-flex gap-2 align-items-center stars ">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <p class="review">(89 Reviews)</p>
+          </div>
+          <div class="price-btn d-flex justify-content-between align-items-center gap-3">
+            <h3>$2,149.00</h3>
+            <button>ADD TO BAG</button>
+          </div>
+        </div>
+          </div>
+        <div class="swiper-slide sect-3-swiper">
+            <div class="card3 hover sect-3-cards">
+          <div class="sect-3-nested">
+            <img src="images/sect-3-img4.jpg" alt="" class="sect-3-img">
+          </div>
+          <div class="sect-3-content">
+            <p>KEYCHRON</p>
+            <h4>Q1 Pro Mechanical</h4>
+          </div>
+          <div class="d-flex gap-2 align-items-center stars ">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <p class="review">(215 Reviews)</p>
+          </div>
+          <div class="price-btn d-flex justify-content-between align-items-center gap-3">
+            <h3>$199.00</h3>
+            <button>ADD TO BAG</button>
+          </div>
+        </div>
+          </div>
+           <div class="swiper-slide sect-3-swiper">
+            <div class="card3 hover sect-3-cards">
+          <div class="sect-3-nested">
+            <span class="badge-save">SAVE $150</span>
+            <img src="images/sect-3-img1.png" alt="" class="sect-3-img">
+          </div>
+          <div class="sect-3-content">
+            <p>IPAD PRO</p>
+            <h4>12.9-inch Liquid Retina</h4>
+          </div>
+          <div class="d-flex gap-2 align-items-center stars ">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <p class="review">(128 Reviews)</p>
+          </div>
+          <div class="price-btn d-flex justify-content-between align-items-center gap-3">
+            <h3>$1,099.00</h3>
+            <button>ADD TO BAG</button>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- section 4 -->
+      <div class="container sect-4-parent d-flex justify-content-center gap-2 align-items-center">
+        <div class="col-6">
+          <p class="col-6-para mb-3">HALL OF FAME</p>
+          <h4 class="col-6-heading fw-bold fs-2 mb-4">The Hardware<br>Definers of 2024</h4>
+          <p>Instruments chosen by professionals. These pieces <br>represent the absolute peak of engineering, reliability, and<br> aesthetic purity.</p>
+          <p class="fw-bold mt-4">VIEW THE FULL LIST</p>
+          <hr class="line-break">
+        </div>
+        <div class="col-3 sect-4-card d-flex flex-column align-items-center justify-content-center">
+          <img src="images/sect-4-img1.webp" alt="" width="100px">
+          <p class="col-3-para fw-bold mt-3">Series X Watch</p>
+          <p class="col-3-price fw-bold">$499</p>
+          </div>
+          <div class="col-3 sect-4-card d-flex flex-column align-items-center justify-content-center">
+          <img src="images/sect-4-img2.avif" alt="" width="100px">
+          <p class="col-3-para fw-bold mt-3">Surface Studio</p>
+          <p class="col-3-price fw-bold">$1,299</p>
+          </div>
+      </div>
+      <!-- section 5 -->
+       <div class="container sect-5-parent d-flex justify-content-between align-items-center">
+        <div class="row">
+        <div class="col-6">
+          <h2 class="fw-bold">Today's Flash Deal</h2>
+          <p>Master the code with the Workstation Elite Bundle.</p>
+        </div>
+        <div class="col-6">
+          <div class="countdown">
+          <div class="time-box">
+            <h2 id="hours">08</h2>
+            <p>HOURS</p>
+          </div>
+          <div class="time-box">
+            <h2 id="minutes">42</h2>
+            <p>MINS</p>
+          </div>
+          <div class="time-box">
+            <h2 id="seconds">19</h2>
+            <p>SECS</p>
+          </div>
+        </div>
+        </div>
+        </div>
+       </div>
+       <!-- section 6 -->
+        <div class="container sect-6-parent">
+          <div class="row d-flex justify-content-center align-items-center gap-4">
+            <div class="col-6 sect-6-card bg-dark d-flex justify-content-center gap-5 align-items-center">
+              <div class="sect-6-content">
+              <h5 class="fw-bold">MEGA SALE</h5>
+              <p>UP TO 40% Off SELECT AUDIO</p>
+              <button class="btn btn-light mt-3">SHOP SALE</button>
+              </div>
+              <div class="sect-6-img">
+                <img src="images/sect-6-img1.jpeg" alt="">
+              </div>
+            </div>
+            <div class="col-6 sect-6-card bg-primary d-flex justify-content-center gap-5 align-items-center">
+              <div class="sect-6-content">
+              <h5 class="fw-bold">NEW ARRIVALS</h5>
+              <p>LATEST FROM NAKNOW</p>
+              <button class="btn btn-light text-primary mt-3">EXPLORE NEW</button>
+              </div>
+              <div class="sect-6-img">
+                <img src="images/sect-6-img2.jpeg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- section 7 -->
+         <div class="container d-flex justify-content-between mt-5">
+          <h2>ESSENTIALS AND OUTLETS</h2>
+          <div class="d-flex gap-3 text-center justify-content-center ">
+            <div class="button-left-3"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+            <div class="button-right-3"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+            </div>
+      </div>
+    <section class="container mt-3" id="directory">
+      <div class="swiper swiper3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card7 hover sect-7-cards">
+              <img src="images/sect-7-img1.webp" alt="" class="sect-7-img">
+              <p class="fw-bold">AirPods Gen 2</p>
+              <div class="d-flex gap-2">
+              <p class="sect-7-para">$129</p>
+              <p class="old-price">$150</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card7 sect-7-cards">
+              <img src="images/sect-7-img2.webp" alt="" class="sect-7-img">
+              <p class="fw-bold">30W GaN Charger</p>
+              <div class="d-flex gap-2">
+              <p class="sect-7-para">$29</p>
+              <p class="old-price">$45</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card7 sect-7-cards">
+              <img src="images/sect-7-img3.webp" alt="" class="sect-7-img">
+              <p class="fw-bold">Sillicon Case</p>
+              <div class="d-flex gap-2">
+              <p class="sect-7-para">$49</p>
+              <p class="old-price">$69</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card7 sect-7-cards">
+              <img src="images/sect-7-img4.webp" alt="" class="sect-7-img">
+              <p class="fw-bold">Wireless Mouse</p>
+              <div class="d-flex gap-2">
+              <p class="sect-7-para">$79</p>
+              <p class="old-price">$119</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card7 sect-7-cards">
+              <img src="images/sect-7-img5 .jpeg" alt="" class="sect-7-img">
+              <p class="fw-bold">Braided Cable 2M</p>
+              <div class="d-flex gap-2">
+              <p class="sect-7-para">$19</p>
+              <p class="old-price">$25</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card7 sect-7-cards">
+              <img src="images/sect-7-img6.webp" alt="" class="sect-7-img">
+              <p class="fw-bold">Sleeve Pro 14</p>
+              <div class="d-flex gap-2">
+              <p class="sect-7-para">$59</p>
+              <p class="old-price">$89</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card7 sect-7-cards">
+              <img src="images/sect-7-img1.webp" alt="" class="sect-7-img">
+              <p class="fw-bold">AirPods Gen 2</p>
+              <div class="d-flex gap-2">
+              <p class="sect-7-para">$129</p>
+              <p class="old-price">$150</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card7 sect-7-cards">
+              <img src="images/sect-7-img2.webp" alt="" class="sect-7-img">
+              <p class="fw-bold">AirPods Gen 2</p>
+              <div class="d-flex gap-2">
+              <p class="sect-7-para">$129</p>
+              <p class="old-price">$150</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card7 sect-7-cards">
+              <img src="images/sect-7-img3.webp" alt="" class="sect-7-img">
+              <p class="fw-bold">AirPods Gen 2</p>
+              <div class="d-flex gap-2">
+              <p class="sect-7-para">$129</p>
+              <p class="old-price">$150</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 8 -->
+     <div class="container sect-8-parent">
+      <h2>LATEST DROPS</h2>
+      <div class="row d-flex justify-content-center gap-4">
+        <div class="col-12 col-md-4 sect-8-card1">
+          <div class="card-content">
+          <h4 class="fw-bold">Chronos Series 9</h4>
+          <p>Redefining timekeeping with AI integration.</p>
+          <button class="button px-3">DISCOVER DROPS</button>
+          </div>
+      </div>
+        <div class="col-12 col-md-4 sect-8-card2">
+          <div class="card-content">
+          <h4 class="fw-bold">Sonic Hub Elite</h4>
+          <p>The ultimate interface for creators.</p>
+          <button class="button px-3">DISCOVER DROPS</button>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 sect-8-card3">
+          <div class="card-content">
+          <h4 class="fw-bold">Lumina Worklight</h4>
+          <p>Adaptive brightness for long sessions.</p>
+          <button class="button px-3">DISCOVER DROPS</button>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- footer -->
+      <footer class="footer container-fluid">
+  <div class="row">
+
+    <!-- LEFT -->
+    <div class="col-lg-4 mb-5">
+      <h2>NAKNOW</h2>
+      <p class="mt-5">
+        THE PREMIER DESTINATION FOR ELITE CONSUMER ELECTRONICS. CURATED BY EXPERTS, ENGINEERED FOR PRECISION.
+        JOIN THE FUTURE OF HARDWARE.
+      </p>
+
+      <div class="d-flex mt-4 iconss">
+        <div class="icon-btn">🌐</div>
+        <div class="icon-btn">🔗</div>
+        <div class="icon-btn">@</div>
+      </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <div class="col-lg-2 col-md-4 mb-4">
+      <div class="footer-title">NAVIGATION</div>
+      <a href="#" class="footer-link mt-5">DISCOVER</a>
+      <a href="#" class="footer-link">AUDIO ESSENTIALS</a>
+      <a href="#" class="footer-link">VISUAL MASTERY</a>
+      <a href="#" class="footer-link">COMPUTING CORE</a>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="col-lg-2 col-md-4 mb-4">
+      <div class="footer-title">SERVICES</div>
+      <a href="#" class="footer-link mt-5">SUPPORT</a>
+      <a href="#" class="footer-link">WARRANTY</a>
+      <a href="#" class="footer-link">SHIPPING</a>
+      <a href="#" class="footer-link">PRIVACY</a>
+    </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    © 2024 THE DIGITAL NAKNOW. ENGINEERED FOR PRECISION.
+  </div>
+      </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
